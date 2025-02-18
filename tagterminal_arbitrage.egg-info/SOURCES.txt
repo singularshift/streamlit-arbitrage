@@ -1,5 +1,7 @@
 README.md
 setup.py
+tag-terminal/__init__.py
+tag-terminal/list_gcs_files.py
 tagterminal_arbitrage.egg-info/PKG-INFO
 tagterminal_arbitrage.egg-info/SOURCES.txt
 tagterminal_arbitrage.egg-info/dependency_links.txt
