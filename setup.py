@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "list-gcs=tag-terminal.list_gcs_files:main",
+            "list-gcs=tag_terminal.list_gcs_files:main",
         ],
     },
 )
