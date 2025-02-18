@@ -2,18 +2,20 @@ from google.cloud import storage
 import sys
 
 def list_gcs_files(bucket_name):
-    """Lists all the blobs (files) in the specified GCS bucket."""
+    """Lists all files in the specified GCS bucket."""
     client = storage.Client()
-    bucket = client.bucket(bucket_name)
-    blobs = bucket.list_blobs()
+    blobs = client.list_blobs(bucket_name)
 
     for blob in blobs:
         print(blob.name)
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 2:
-        print("Usage: python list_gcs_files.py <BUCKET_NAME>")
+        print("Usage: list-gcs <BUCKET_NAME>")
         sys.exit(1)
 
     bucket_name = sys.argv[1]
     list_gcs_files(bucket_name)
+
+if __name__ == "__main__":
+    main()
