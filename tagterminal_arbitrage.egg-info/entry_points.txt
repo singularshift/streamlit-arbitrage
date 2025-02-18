@@ -1,0 +1,2 @@
+[console_scripts]
+list-gcs = tag_terminal.list_gcs_files:main

@@ -1,0 +1,8 @@
+README.md
+setup.py
+tagterminal_arbitrage.egg-info/PKG-INFO
+tagterminal_arbitrage.egg-info/SOURCES.txt
+tagterminal_arbitrage.egg-info/dependency_links.txt
+tagterminal_arbitrage.egg-info/entry_points.txt
+tagterminal_arbitrage.egg-info/requires.txt
+tagterminal_arbitrage.egg-info/top_level.txt
