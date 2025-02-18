@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#33FF99"          # A bright green for highlights
+backgroundColor="#000000"       # Pure black background
+secondaryBackgroundColor="#1A1A1A" 
+textColor="#F5F5F5"
+font="monospace"
