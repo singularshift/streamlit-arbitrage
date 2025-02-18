@@ -1,2 +1,2 @@
 list-gcs:
-	list-gcs $(BUCKET)
+	python -m tag-terminal.list_gcs_files $(BUCKET)
