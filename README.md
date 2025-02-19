@@ -11,7 +11,7 @@ This repository contains all files that were created during our Business Data Ma
 
 ## Repository Structure
 
-- **`app.py` & `app2.py`**: Application scripts, that allows users to find arbitrage opportunities for all brands. App2 also includes Google Trends for AP and Tag Heuer, as well as trend and price forecasts using Prophet for Tag Heuer products. The reliability of forecasts depends on the data availability of the product prices, which differs from product to product.
+- **`app.py` & `app2.py`**: Application scripts, that allows users to find arbitrage opportunities for all brands. App2 also includes Google Trends for AP and Tag Heuer, as well as trend and price forecasts using Prophet for Tag Heuer products. The reliability of forecasts depends on the data availability of the product prices, which differs from product to product, based on the tables we've been provided with.
 - **`watchfinder-app.py`**: Application script that allows users to search for any Tag Heuer watch and gets an overview about prices and availabilities.
 - **`data/`**: Directory containing datasets used in the project, such as `watch_catalogue.csv`, `latest_prices.csv`, and Google Trends data files (`multiTimelineAP.csv`, `multiTimelineTH.csv`). `watchfinder_scraping_results.csv` contains all results of our scraping efforts of Tag Heuer watches.
 - **`notebooks/`**: Jupyter notebooks documenting data analysis, preprocessing steps, and model development processes, including attributes and prices.
