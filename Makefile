@@ -22,7 +22,7 @@ launch-arbitrage:
 
 # Launch the watchfinder application using Streamlit
 launch-watchfinder:
-	streamlit run src/watchfinder-app.main
+	streamlit run src/watchfinder-app.py
 
 # Clean target to remove virtual environment and cache files
 clean:
