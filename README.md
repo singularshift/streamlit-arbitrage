@@ -9,10 +9,11 @@ This repository contains all files that were created during our Business Data Ma
 
 ## We recommend you try 🤗
 - First run `make setup` to set up Python with the correct packages
-- Try out a streamlit app with `make launch-watchfinder`
+- Try out one of our streamlit apps with `make launch-watchfinder`
 - Try our scraping utility with `make scrape-watchfinder` (scrapes Tag Heuer watches from watchfinder.com and outputs a .csv of the results)
 - Try out `make inspire` or `make motivate` if you need something to brighten your day :)
-- Finally, clean out the venv using `make clean`
+- Check out our PoweBI dashboards in the `powerbi` directory (screenshots available so you don't have to open PowerBI)
+- Finally, clean out your workspace using `make clean`
 
 ## Repository Structure
 

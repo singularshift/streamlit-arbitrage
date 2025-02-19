@@ -17,7 +17,7 @@ df = df[df['Reference Code'].isin(latest_prices_df['reference_code'])]
 
 # Streamlit App
 st.title('Tag Heuer Opportunity Finder 🤖⌚️')
-st.subheader('Find the best deals on Tag Heuer watches on watchfinder.com')
+st.subheader('Find the best deals on second-hand Tag Heuer watches on watchfinder.com')
 
 # Step 1: Select Collection and Reference Code
 col1, col2 = st.columns(2)
@@ -40,10 +40,8 @@ df_selected = df_filtered[df_filtered['Reference Code'] == selected_reference].s
 if selected_reference in latest_prices_df['reference_code'].values:
     price = latest_prices_df[latest_prices_df['reference_code'] == selected_reference]['price_in_usd'].values[0]
 
-st.subheader(f'Latest price: ${price}')
-
 # Step 3: Display DataFrame
-st.subheader('Query results')
+st.write('Models available on watchfinder.com:')
 # Drop unnecessary columns
 df_selected.drop(columns=['Model', 'Product code', 'Bracelet', 'Dial type'], inplace=True)
 
@@ -80,3 +78,5 @@ styled_df = styled_df.set_table_styles(
 )
 
 st.dataframe(styled_df, hide_index=True)
+
+st.subheader(f'Latest price for a new watch: ${price}')
