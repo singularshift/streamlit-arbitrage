@@ -1,5 +1,5 @@
 # Business Data Management Group Project
-## Team _Tag Heuer_
+## Team _Tag Heuer_ ⌚️🤖📈
 
 Eliott Vacher Detournière  |  Julius Walkenhorst  |  Camilo Zuleta  |  Ilia Chanukvadze
 
@@ -7,12 +7,12 @@ Eliott Vacher Detournière  |  Julius Walkenhorst  |  Camilo Zuleta  |  Ilia Cha
 
 This repository contains all files that were created during our Business Data Management Course. It contains the relevant scripts for our streamlit apps, a combined data directory, notebooks, requirements definition, and configuration files.
 
-## We recommend you try 
--First run `make setup` to set up Python with the correct packages
--Try out a streamlit app with `make launch-watchfinder`
--Try our scraping utility with `make scrape-watchfinder` (scrapes Tag Heuer watches from watchfinder.com and outputs a .csv of the results)
--Try out `make inspire` or `make motivate` if you need something to brighten your day :)
--Finally, clean out the venv using `make clean`
+## We recommend you try 🤗
+- First run `make setup` to set up Python with the correct packages
+- Try out a streamlit app with `make launch-watchfinder`
+- Try our scraping utility with `make scrape-watchfinder` (scrapes Tag Heuer watches from watchfinder.com and outputs a .csv of the results)
+- Try out `make inspire` or `make motivate` if you need something to brighten your day :)
+- Finally, clean out the venv using `make clean`
 
 ## Repository Structure
 
