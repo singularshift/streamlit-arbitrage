@@ -3,8 +3,6 @@
 
 Eliott Vacher Detournière  |  Julius Walkenhorst  |  Camilo Zuleta  |  Ilia Chanukvadze
 
-# Repository Description
-
 ## Overview
 
 This repository contains all files that were created during our Business Data Management Course. It contains the relevant scripts for our streamlit apps, a combined data directory, notebooks, requirements definition, and configuration files.
@@ -22,10 +20,18 @@ This repository contains all files that were created during our Business Data Ma
 
 ## Getting Started
 
-To run the application locally:
+### Using Makefile automations
+
+make setup: Sets up the virtual environment and installs the required dependencies.
+make scrape-watchfinder: Runs the Watchfinder scraping script.
+make launch-arbitrage: Launches the arbitrage application using Streamlit. Note: This will not work without the required credentials.
+make launch-watchfinder: Launches the Watchfinder application using Streamlit.
+make clean: Cleans up the virtual environment and cache files.
+make list-gcs: Lists Google Cloud Storage files in the specified bucket.
+make inspire: Prints an inspirational message.
+make motivate: Prints a motivational message.
+
+### To run the application locally:
 
 - You need to add your Google Cloud Credentials to the .streamlit folder in the same directory in the **`secrets.toml`** file in the appropriate format.
 - Afterwards, you can run the applications locally via executing `streamlit run app2.py` `streamlit run app.py` `streamlit run watchfinder-app.py`
-
-
-
