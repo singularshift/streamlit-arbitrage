@@ -18,7 +18,7 @@ client = bigquery.Client(credentials=credentials, project=credentials.project_id
 # ------------------------------------------------------------------------------
 # 1) Load Watch Catalogue CSV
 # ------------------------------------------------------------------------------
-watch_catalogue = pd.read_csv("watch_catalogue.csv")  # Update path if needed
+watch_catalogue = pd.read_csv("./data/watch_catalogue.csv")  # Update path if needed
 
 # ------------------------------------------------------------------------------
 # 2) Load Google Trends CSVs with the structure from your screenshot
@@ -42,13 +42,13 @@ def load_trends_csv(filepath):
     return df
 
 # Load each brand's CSV
-tag_heuer_trends = load_trends_csv("multiTimelineTH.csv")
-audemars_trends = load_trends_csv("multiTimelineAP.csv")
+tag_heuer_trends = load_trends_csv("./data/multiTimelineTH.csv")
+audemars_trends = load_trends_csv("./data/multiTimelineAP.csv")
 
-# ------------------------------------------------------------------------------
-# Set Page Config
-# ------------------------------------------------------------------------------
-st.set_page_config(page_title="TagTerminal - Bloomberg Style", layout="wide")
+# # ------------------------------------------------------------------------------
+# # Set Page Config
+# # ------------------------------------------------------------------------------
+# st.set_page_config(page_title="TagTerminal - Bloomberg Style", layout="wide")
 
 # ------------------------------------------------------------------------------
 # App Title & Description
