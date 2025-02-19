@@ -26,7 +26,7 @@ This repository contains all files that were created during our Business Data Ma
 
 - We included a folder called `powerbi`, that includes our PowerBI file, as well as renderings of our dashboards and apps, in case you are not able to run our applications locally.
 
-## Getting Started
+## Running apps that require GCP authentication
 
 To run the app2.py application locally:
 
