@@ -2,8 +2,8 @@
 venv/
 .venv/
 
-.streamlit
-.devcontainer
+.streamlit/
+.devcontainer/
 
 # Ignore Python cache files
 __pycache__/
