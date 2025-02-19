@@ -7,6 +7,13 @@ Eliott Vacher Detournière  |  Julius Walkenhorst  |  Camilo Zuleta  |  Ilia Cha
 
 This repository contains all files that were created during our Business Data Management Course. It contains the relevant scripts for our streamlit apps, a combined data directory, notebooks, requirements definition, and configuration files.
 
+## We recommend you try 
+-First run `make setup` to set up Python with the correct packages
+-Try out a streamlit app with `make launch-watchfinder`
+-Try our scraping utility with `make scrape-watchfinder` (scrapes Tag Heuer watches from watchfinder.com and outputs a .csv of the results)
+-Try out `make inspire` or `make motivate` if you need something to brighten your day :)
+-Finally, clean out the venv using `make clean`
+
 ## Repository Structure
 
 - **`app.py` & `app2.py`**: Application scripts, that allows users to find arbitrage opportunities for all brands. App2 also includes Google Trends for AP and Tag Heuer, as well as trend and price forecasts using Prophet for Tag Heuer products. The reliability of forecasts depends on the data availability of the product prices, which differs from product to product, based on the tables we've been provided with.
