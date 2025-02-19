@@ -31,4 +31,4 @@ This repository contains all files that were created during our Business Data Ma
 To run the app2.py application locally:
 
 - You need to add your Google Cloud Credentials to the .streamlit folder in the same directory in the **`secrets.toml`** file in the appropriate format.
-- Afterwards, you can run the applications locally via executing `streamlit run app2.py` `streamlit run app.py` `streamlit run watchfinder-app.py`
+- Afterwards, you can run the applications locally via executing `streamlit run app2.py` `streamlit run app.py`
